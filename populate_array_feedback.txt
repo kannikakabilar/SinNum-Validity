@@ -1,0 +1,31 @@
+.FF.F
+======================================================================
+FAIL: test_min (__main__.TestCountLarge)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/furkan/csc209-w19/grading/mark_a1/marking_scripts/test_helpers.py", line 187, in _t
+    self.assertTrue(stdout == expected_stdout or stdout == expected_stdout_alt)
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_out_bounds_max (__main__.TestCountLarge)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/furkan/csc209-w19/grading/mark_a1/marking_scripts/test_helpers.py", line 190, in _t
+    self.assertEqual(stdout, expected_stdout)
+AssertionError: '410065407\n' != ''
+- 410065407
+
+
+======================================================================
+FAIL: test_random (__main__.TestCountLarge)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/furkan/csc209-w19/grading/mark_a1/marking_scripts/test_helpers.py", line 187, in _t
+    self.assertTrue(stdout == expected_stdout or stdout == expected_stdout_alt)
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.059s
+
+FAILED (failures=3)
